@@ -20,7 +20,7 @@ namespace ProductCatalog.Controllers
         [HttpGet]
         public L_FUNCIONARIOS Get(int id)
         {
-            return _context.L_FUNCIONARIOS.FirstOrDefault(f => f.ID == id);
+            return _context.L_FUNCIONARIOS.FirstOrDefault(f => f.Id == id);
         }
     }
 }
